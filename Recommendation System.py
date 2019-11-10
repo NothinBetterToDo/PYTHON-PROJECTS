@@ -3,6 +3,7 @@
 """
 Created on Sat Nov  2 23:36:32 2019
 Title:Collaborative Filtering using movie dataset
+Source/Reference:CSE6040 Solutions
 """
 
 import pandas as pd 
@@ -60,5 +61,4 @@ def recommend_user_user(ratings, similar_user_ids, user_id_index, index_movie_id
                 recommendations.add(index_movie_id[indx])
                 break 
     return recommendations 
-
 
