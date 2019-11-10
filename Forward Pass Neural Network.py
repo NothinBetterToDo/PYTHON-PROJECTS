@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Nov  7 06:28:46 2019
-@author: derrinechia
 Forward Pass of a Neural Network
+Source/Reference:CSE6040 Solutions 
 """
 
 import numpy as np
@@ -129,12 +129,3 @@ print("FC_no_loop Output error:", error)
 speed_up = elapsed_time_naive/elapsed_time_fast
 print("FC_no_loop Speed up:", speed_up)
 
-
-
-
- 
- 
- 
- 
- 
- 
