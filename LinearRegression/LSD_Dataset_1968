@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 10 21:23:56 2019
+Title: Linear Regression
+Source:CSE 6040 
+"""
+
+import pandas as pd
+import numpy as np
+from matplotlib.pyplot import scatter, xlabel, title, plot #to plot scatterplot
+from numpy import linspace, floor, ceil #to plot best fit line
+
+#LSD Dataset
+data_list = [1.17,  78.93,
+         2.97,   58.20,
+         3.26,   67.47,
+         4.69,   37.47,
+         5.83,   45.65,
+         6.00,   32.92,
+         6.41,   29.97]
+
+df = pd.DataFrame(np.array(data_list).reshape(7,2), columns=list("ab"))
+df = df.rename(columns = {'a':'lsd_concentration', 'b':'exam_score'})
+#print(df.head())
+
+#scatter plot to understand correlation
+#scatter(df['lsd_concentration'], df['exam_score'])
+#xlabel('LSD Tissue Concentration')
+#title('Exam Scores Degrade with Increasing LSD')
+
+#strong negative correlation
+corr = df['lsd_concentration'].corr(df['exam_score'])
+print("Pearson correlation: %.3f" % corr) 
+
+#fitting a model, y=ax+b 
+
+def linreg_fit(x,y):
+    from numpy import ones
+    m = len(x); assert len(y) == m
+    u = ones(m) #unlike zeros and empty 
+    alpha = x.dot(y) - u.dot(x)*u.dot(y)/m
+    alpha /= x.dot(x) - (u.dot(x)**2)/m
+    beta = u.dot(y-alpha*x)/m
+    return alpha, beta
+
+
+#compute coeff for LSD linear reg
+x,y = df['lsd_concentration'], df['exam_score']
+alpha, beta = linreg_fit(x,y)
+print("Alpha: %.3f" % alpha)
+print("Beta: %.3f" % beta)
+
+#calculate sum of squared residuals
+r = alpha*x + beta - y 
+ssqr = r.dot(r)
+print("Ssqr: %.3f" % ssqr)
+
+#get the best fit line
+x_fit = linspace(floor(x.min()), ceil(x.max()), 2)
+y_fit = alpha*x_fit + beta
+
+#scatter plot and best fit line visualization
+#scatter(x,y, marker='o')
+#plot(x_fit, y_fit, 'r--')
+#xlabel('LSD Concentration')
+#title('Best fit linear model')
