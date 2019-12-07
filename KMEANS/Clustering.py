@@ -99,10 +99,3 @@ def kmeans(X, k, starting_centers=None, max_steps=np.inf):
         i += 1
     return labels 
 
-
-
-
-
-
-
-
