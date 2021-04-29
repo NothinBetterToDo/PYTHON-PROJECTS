@@ -21,7 +21,7 @@ Analytics projects are just like a box of chocolates. Each and every project is 
 * Spyder
 
 ## Projects
-<br/>
+
 [Breast Wisconsin](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/Breast_Wisconsin)
 * Data cleaning, visualization and K Means clustering using scikit-learn <br/>
 
