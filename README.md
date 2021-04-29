@@ -22,7 +22,8 @@ Analytics projects are just like a box of chocolates. Each and every project is 
 
 ## Projects
 [Breast Wisconsin](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/Breast_Wisconsin)
-* Data cleaning, visualization and K Means clustering using scikit-learn
+Data cleaning, visualization and K Means clustering using scikit-learn <br/>
+
 [KMeans](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/KMEANS)
 * K Means clustering algorithm from scratch 
 
