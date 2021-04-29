@@ -22,7 +22,7 @@ Analytics projects are just like a box of chocolates. Each and every project is 
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
-[KMeans] ([https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/KMEANS])
+[KMeans] (https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/KMEANS)
  
 
 
