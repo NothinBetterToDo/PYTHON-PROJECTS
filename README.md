@@ -13,7 +13,8 @@
 
 ## General Info
 ***<p align="center">My mama always said life was like a box of chocolates. 
- You never know what you're gonna get.(Forrest Gump, 1994)***</p><br/>
+ You never know what you're gonna get.
+ (Forrest Gump, 1994)***</p><br/>
  
 Analytics projects are just like a box of chocolates. Each and every project is unique and requires different data collection, processing, feature engineering and modelling approaches. This project contains some of my side projects in graduate school, online courses/tutorials, etc.  
 
