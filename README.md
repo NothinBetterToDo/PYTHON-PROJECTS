@@ -37,7 +37,7 @@ Analytics projects are just like a box of chocolates. Each and every project is 
 * Sentiment Analysis <br/>
 
 [Titanic Machine Learning](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/Titanic%20Machine%20Learning)
-* Simple illustration using logistic regression, KNN, decision trees, random forest on Titanic datasets <br/>
+* Simple illustration using logistic regression, KNN, decision trees, random forest on Titanic dataset <br/>
 
 ## Status
 Project is: _in progress_
