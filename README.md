@@ -1,27 +1,30 @@
 # PYTHON-PROJECTS
-> Here goes your awesome project description!
+> Data Science Projects using Python
 
 ## Table of contents
-* [General info](#general-info)
+* [General Info](#general-info)
+* [IDE](#ide)
 * [Screenshots](#screenshots)
-* [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+## General Info
+***"My mama always said life was like a box of chocolates. You never know what you're gonna get". (Forrest Gump, 1994)***
+Analytics projects are just like a box of chocolates. Each and every project is unique and requires different data collection, processing, feature engineering and modelling approaches. This project contains some of my side projects in graduate school, online courses/tutorials, etc.  
+
+ ## IDE
+* Jupyter 
+* PyCharm
+* Spyder
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
-![https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/KMEANS]
+[KMeans] ([https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/KMEANS])
  
- ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
