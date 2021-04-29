@@ -24,15 +24,15 @@ Analytics projects are just like a box of chocolates. Each and every project is 
 [Breast Wisconsin](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/Breast_Wisconsin)
 * Data cleaning, visualization and K Means clustering using scikit-learn <br/>
 [KMeans](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/KMEANS)
-* K Means clustering algorithm from scratch 
+* K Means clustering algorithm from scratch <br/>
 [Linear Regression](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/LinearRegression)
-* Illustrate the concept of the gradient (CSE 6040)
+* Illustrate the concept of the gradient (CSE 6040) <br/>
 [Twitter Sentiment Analysis](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/Social%20Media%20Mining)
-* Access Twitter social media data using the Twitter API
+* Access Twitter social media data using the Twitter API 
 * Data Mining, Text Processing and Pickling
-* Sentiment Analysis 
+* Sentiment Analysis <br/>
 [Titanic Machine Learning](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/Titanic%20Machine%20Learning)
-* Simple illustration using logistic regression, KNN, decision trees, random forest on Titanic datasets 
+* Simple illustration using logistic regression, KNN, decision trees, random forest on Titanic datasets <br/>
 
 
 ## Features
