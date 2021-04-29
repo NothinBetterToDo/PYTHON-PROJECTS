@@ -43,8 +43,8 @@ Analytics projects are just like a box of chocolates. Each and every project is 
 Project is: _in progress_
 
 ## Inspiration
-[Jason Brownlee](https://machinelearningmastery.com)
-[Kaggle](https://www.kaggle.com)
+[Jason Brownlee](https://machinelearningmastery.com) </br>
+[Kaggle](https://www.kaggle.com)</br>
 Graduate School - Georgia Tech, Indiana University Bloomington
 
 ## Contact
