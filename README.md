@@ -4,9 +4,7 @@
 ## Table of contents
 * [General Info](#general-info)
 * [IDE](#ide)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Features](#features)
+* [Projects](#projects)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -41,23 +39,13 @@ Analytics projects are just like a box of chocolates. Each and every project is 
 [Titanic Machine Learning](https://github.com/NothinBetterToDo/PYTHON-PROJECTS/tree/master/Titanic%20Machine%20Learning)
 * Simple illustration using logistic regression, KNN, decision trees, random forest on Titanic datasets <br/>
 
-
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
 ## Status
 Project is: _in progress_
 
 ## Inspiration
 [Jason Brownlee](https://machinelearningmastery.com)
-
+[Kaggle](https://www.kaggle.com)
+Graduate School - Georgia Tech, Indiana University Bloomington
 
 ## Contact
 Created by @HumanBeing
